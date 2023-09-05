@@ -75,3 +75,24 @@ int main() {
 
 g examen 4.cpp…]()
 
+[Uploading#include <iostream>
+
+int main() {
+    int numero;
+
+    std::cout << "Ingrese numeros (ingrese un numero negativo para detenerse):\n";
+
+    while (true) {
+        std::cout << "Ingrese un numero: ";
+        std::cin >> numero;
+
+        if (numero < 0) {
+            std::cout << "Numero negativo ingresado. El programa ha terminado.\n";
+            break; // Sale del bucle while cuando se ingresa un n�mero negativo.
+        }
+    }
+
+    return 0;
+}
+
+ examen 5.cpp…]()
