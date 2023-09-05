@@ -33,4 +33,21 @@ int main() {
 
 en 2.cpp…]()
 
+#include <iostream>
+
+int main() {
+    int numero;
+
+    // Solicitar al usuario que ingrese un numero
+    std::cout << "Ingrese un numero para ver su tabla de multiplicar: ";
+    std::cin >> numero;
+
+    // Mostrar la tabla de multiplicar del numero ingresado
+    std::cout << "Tabla de multiplicar del " << numero << ":\n";
+    for (int i = 1; i <= 10; i++) {
+        std::cout << numero << " x " << i << " = " << numero * i << std::endl;
+    }
+
+    return 0;
+}
 
